@@ -6,7 +6,11 @@ namespace T4Ejerci2
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Ingrese nombre: ");
+            string nombre = System.Console.ReadLine();
+            Console.WriteLine("Ingrese ciudad: ");
+            string ciudad = Console.ReadLine();
+            Console.WriteLine("Hola " + nombre + " bienvenido a " + ciudad);
         }
     }
 }
